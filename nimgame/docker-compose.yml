@@ -1,0 +1,9 @@
+version: "3.6"
+
+services:
+  pwn:
+    build: ./deploy
+    restart: always
+    ports:
+      - "10051:8888"
+
